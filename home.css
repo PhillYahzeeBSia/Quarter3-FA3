@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  }
+      
+p {
+  text-align: center;
+  font-family: sans-serif;
+  }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+  }
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    }
+
+  .subjects {
+    display: flex;
+    justify-content: center; /* Centers the boxes horizontally */
+    gap: 15px; /* Adds space between them */
+    margin-top: 20px;
+    overflow: hidden;
+    }
+
+  .subject-box {
+    float: left;
+    width: 24%; /* Adjust based on your layout */
+    margin: 10px;
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+  .subject-box h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007bff;
+    }
+
+  .subject-box p {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    }
